@@ -3,9 +3,9 @@ import "../styles/Courses.css";
 import { motion } from "framer-motion";
 
 import productdesign from "../assets/Product-design.png";
-import frontend from "../assets/front-end-development.png";
-import backend from "../assets/backend-development.png";
-import dataanalysis from "../assets/data-Analysis.png";
+import frontend from "../assets/Front-end-development.png";
+import backend from "../assets/Backend-development.png";
+import dataanalysis from "../assets/Data-Analysis.png";
 import aiml from "../assets/ai-ml.png";
 
 const courses = [
