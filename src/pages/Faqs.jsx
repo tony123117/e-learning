@@ -4,7 +4,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 import Laptop from "../assets/laptop.png";
-import Biglogo from "../assets/Big-logo.png";
+import Biglogo from "../assets/Big-Logo.png";
 import Footer from "../components/Footer";
 
 const faqs = [
