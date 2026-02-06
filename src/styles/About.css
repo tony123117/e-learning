@@ -1,0 +1,209 @@
+body {
+  font-family: "Geologica", sans-serif;
+}
+
+
+.about-section {
+  max-width: 1400px;
+  margin: 80px auto;
+  padding: 0 24px;
+  display: grid;
+  grid-template-columns: 1fr 1.3fr 1fr;
+  gap: 40px;
+  align-items: center;
+  background-color: white;
+}
+
+.about {
+  text-align: center;
+  margin: 80px auto;
+  background-color: white;
+
+}
+
+.about .tagline {
+  color: #ff7a00;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-family: "Geologica", sans-serif;
+}
+
+.about h1 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #3a3a3a;
+  margin-bottom: 15px;
+  font-family: "Geologica", sans-serif;
+}
+
+.about p {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+  color: #6b6b6b;
+  max-width: 700px;
+
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .about h1 {
+    font-size: 32px;
+  }
+
+  .about p {
+    font-size: 16px;
+  }
+}
+
+
+.image {
+  position: relative;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 28px;
+}
+
+.content-card {
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 28px;
+  padding: 48px 40px;
+  text-align: center;
+}
+
+.content-card h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 20px;
+  font-family: "Geologica", sans-serif;
+}
+
+.content-card p {
+  font-size: 17px;
+  line-height: 1.6;
+  color: #666;
+  font-family: "Poppins", sans-serif;
+}
+
+.play-btn {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+  background: #ffffff;
+  border: 2px solid #ff7a00;
+  color: #ff7a00;
+  padding: 12px 18px;
+  border-radius: 14px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+}
+
+.play-btn .icon {
+  width: 34px;
+  height: 34px;
+  border: 2px solid #ff7a00;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.play-btn:hover {
+  background: #ff7a00;
+  color: #ffffff;
+}
+
+.play-btn:hover .icon {
+  border-color: #ffffff;
+}
+
+@media (max-width: 1024px) {
+  .what-we-do {
+    grid-template-columns: 1fr;
+  }
+
+  .about {
+    background-color: white;
+  }
+
+  .play-btn {
+    position: static;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .about-section {
+    grid-template-columns: 1fr;
+    gap: 28px;
+    margin: 48px auto;
+    padding: 0 16px;
+  }
+
+  .about {
+    margin: 80px auto;
+    text-align: center;
+  }
+
+  .about .tagline {
+    font-size: 18px;
+  }
+
+  .about h1 {
+    font-size: 24px;
+  }
+
+  .about p {
+    font-size: 14px;
+    line-height: 1.6;
+    max-width: 100%;
+  }
+
+  .content-card {
+    padding: 32px 24px;
+    border-radius: 20px;
+  }
+
+  .content-card h2 {
+    font-size: 22px;
+  }
+
+  .content-card p {
+    font-size: 14px;
+  }
+
+  .image img {
+    height: auto;
+    border-radius: 20px;
+  }
+
+  .play-btn {
+    position: relative;
+    bottom: 4.5rem;
+    margin-top: 16px;
+    padding: 10px 14px;
+    font-size: 14px;
+    gap: 8px;
+    transition: ease-in-out 0.5s;
+
+  }
+
+  .play-btn .icon {
+    width: 28px;
+    height: 28px;
+    font-size: 12px;
+    border: orange solid 2px;
+  }
+}
